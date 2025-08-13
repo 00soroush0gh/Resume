@@ -1,5 +1,6 @@
 ﻿using Resume.Application.DTOs;
 using Resume.Application.Services.Interfaces;
+using Resume.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,7 +50,7 @@ public class DashboardService : IDashboardService
 
         HomeIndexModelDTO model = new HomeIndexModelDTO();
 
-        model.Experience = experiences;
+        model.Experiences = experiences;
         model.Educations = educations;
         model.MySkills = mySkills;
 

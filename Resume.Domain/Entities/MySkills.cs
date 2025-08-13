@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Resume.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,4 +14,5 @@ public class MySkills
     public string SkillTille { get; set; } = null!;
 
     public int Percentage { get; set; }
+    public List<Skill> SkillList { get; set; } = new List<Skill>();
 }
