@@ -21,12 +21,14 @@ namespace Resume.Domain.Entities
         public List<Skill> SkillList { get; set; } = new List<Skill>();
         public List<Experience> Experiences { get; set; } = new();
         public List<Employer> AppliedByEmployers { get; set; } = new();
-
+        public List<Employer> AcceptedByEmployers { get; set; } = new();
     }
     public class Employer : Account
     {
         public Skill? FilterBySkill { get; set; }
         public List<Employee> EmployeesAplied { get; set; } = new();
+        public List<Employee> EmployeesAccepted { get; set; } = new();
 
     }
+
 }
