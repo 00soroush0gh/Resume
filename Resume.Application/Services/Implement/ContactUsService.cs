@@ -1,10 +1,7 @@
 ﻿using Resume.Application.DTOs;
 using Resume.Application.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Resume.Domain.Entities;
+using Resume.Domain.IRepository;
 
 namespace Resume.Application.Services.Implement;
 

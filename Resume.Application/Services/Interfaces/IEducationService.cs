@@ -1,4 +1,5 @@
 ﻿using Resume.Application.DTOs;
+using Resume.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

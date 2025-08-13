@@ -1,5 +1,7 @@
 ﻿using Resume.Application.DTOs;
 using Resume.Application.Services.Interfaces;
+using Resume.Domain.Entities;
+using Resume.Domain.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
