@@ -18,26 +18,7 @@ public partial class Skill
 }
 public class SkillLevel
 {
-    public string Name = null!;
-    public string Description = null!;
-    public SkillLevel(int level)
-    {
-        switch (level)
-        {
-            case 0:
-                Name = "Beginner";
-                Description = "";
-                break;
-            case 1:
-                Name = "Intermediate";
-                Description = "";
-                break;
-            case 2:
-                Name = "Senior";
-                Description = "";
-                break;
-            default:
-                break;
-        }
-    }
+    public string Name { get; set; }
+    public string Description { get; set; } = null!;
+    
 }

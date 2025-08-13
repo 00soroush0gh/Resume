@@ -12,8 +12,7 @@ namespace Resume.Infrastructure.DataBaseContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("");
-            optionsBuilder.UseSqlite("");
+            optionsBuilder.UseSqlServer(@"\Resume\Resume.Infrastructure\DB\");
             base.OnConfiguring(optionsBuilder);
         }
         public DbSet<Skill> Skills { get; set; }

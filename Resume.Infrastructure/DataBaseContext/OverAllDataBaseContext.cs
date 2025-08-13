@@ -13,8 +13,7 @@ public class OverAllDataBaseContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("");
-        optionsBuilder.UseSqlite("");
+        optionsBuilder.UseSqlServer(@"\Resume\Resume.Infrastructure\DB\");
         base.OnConfiguring(optionsBuilder);
     }
     public DbSet<Employee> Employees { get; set; }
